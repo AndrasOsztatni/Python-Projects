@@ -217,10 +217,7 @@ button_sign.grid(row=5, column=0)
 button_point.grid(row=5, column=2)
 
 
-frame.grid_columnconfigure(0, weight=0)
-frame.grid_columnconfigure(1, weight=0)
-frame.grid_columnconfigure(2, weight=0)
-frame.grid_columnconfigure(3, weight=0)
-frame.grid_columnconfigure(4, weight=0)
+for i in range(0, 5):
+    frame.grid_columnconfigure(i, weight=0)
 
 root.mainloop()
