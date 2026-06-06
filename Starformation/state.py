@@ -3,7 +3,7 @@ from config import N
 
 # INITIALIZE TAICHI
 
-ti.init(arch=ti.cuda)
+ti.init(arch=ti.gpu)
 
 # TAICHI DATA STRUCTURES
 
