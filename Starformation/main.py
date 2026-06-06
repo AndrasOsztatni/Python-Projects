@@ -4,6 +4,10 @@ from config import SINK_ACCRETION_RADIUS
 import state
 import initialization
 import physics
+import os
+
+if not os.path.exists("sim_data"):
+    os.makedirs("sim_data")
 
 def run_simulation():
     print("Initializing Initial Conditions...")
