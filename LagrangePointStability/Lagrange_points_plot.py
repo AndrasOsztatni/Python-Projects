@@ -50,7 +50,7 @@ ax.contour(X, Y, Z, levels=[C_L1], colors=['red'], linewidths=1.2, alpha=0.5)
 ax.contour(X, Y, Z, levels=[C_L2], colors=['blue'], linewidths=1.2, alpha=0.5)
 ax.contour(X, Y, Z, levels=[C_L3], colors=['orange'], linewidths=1.2, alpha=0.5)
 
-ax.plot(-mu, 0, 'yo', markersize=10, label='Sun (Primary)')
+ax.plot(-mu, 0, 'yo', markersize=25, label='Sun (Primary)')
 ax.plot(1-mu, 0, 'ko', markersize=10, markerfacecolor='#4b8bbe',  label='Earth (Secondary)')
 
 l_points_x = [x_L1, x_L2, x_L3, x_L45, x_L45]
