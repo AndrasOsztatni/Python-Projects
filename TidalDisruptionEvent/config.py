@@ -1,0 +1,12 @@
+#Constants
+M = 50
+m = 1
+N = 5000
+R = 0.5
+R_0 = [5, 0, 0]
+G = 1
+SOFT_PARAM = 0.1
+TIME_STEP = 0.002
+TARGET_FPS = 300
+FRAME_DURATION = 1 / TARGET_FPS
+CENTRAL_RADIUS = 0.2
